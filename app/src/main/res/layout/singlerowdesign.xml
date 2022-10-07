@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:text="1"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:id="@+id/userfname"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:layout_weight="2"
+            android:text="Fname"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:id="@+id/userlname"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:layout_weight="2"
+            android:text="Lname"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_margin="2dp"/>
+        <ImageButton
+            android:id="@+id/btn_dlt"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_delete"
+            android:background="@color/white"/>
+        <ImageButton
+            android:id="@+id/btn_edit"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_edit"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
